@@ -1,0 +1,469 @@
+{
+  "book_title": "The Return of Sherlock Holmes",
+  "author": "Arthur Conan Doyle",
+  "style_prompt": "digital art, pastel marker illustration",
+  "characters": {
+    "sherlock_holmes": {
+      "display_name": "Sherlock Holmes",
+      "aliases": [
+        "Holmes",
+        "Mr. Holmes",
+        "the detective",
+        "the master"
+      ],
+      "base_description": "Tall, lean Victorian detective in his late 30s to early 40s, sharp aquiline hawk-like nose, piercing grey eyes, dark hair neatly combed back, prominent square chin, wearing a tailored charcoal three-piece Victorian tweed suit with an Inverness cape, clean studio lighting, digital art, pastel marker illustration.",
+      "states": {
+        "sherlock_holmes_basic": {
+          "file": "project/The Return of Sherlock Holmes/bible/refs/sherlock_holmes_basic.png",
+          "description": "Baseline Victorian detective attire, sharp analytical expression, charcoal tweed suit and Inverness cape."
+        },
+        "sherlock_holmes_front": {
+          "file": "project/The Return of Sherlock Holmes/bible/refs/sherlock_holmes_front.png",
+          "description": "Model sheet perspective: front"
+        },
+        "sherlock_holmes_threequarter": {
+          "file": "project/The Return of Sherlock Holmes/bible/refs/sherlock_holmes_threequarter.png",
+          "description": "Model sheet perspective: threequarter"
+        },
+        "sherlock_holmes_profile": {
+          "file": "project/The Return of Sherlock Holmes/bible/refs/sherlock_holmes_profile.png",
+          "description": "Model sheet perspective: profile"
+        },
+        "sherlock_holmes_costume_disguise": {
+          "file": "project/The Return of Sherlock Holmes/bible/refs/sherlock_holmes_costume_disguise.png",
+          "description": "Model sheet perspective: costume_disguise"
+        }
+      }
+    },
+    "john_watson": {
+      "display_name": "Dr. John H. Watson",
+      "aliases": [
+        "Watson",
+        "Dr. Watson",
+        "my dear Watson"
+      ],
+      "base_description": "Sturdy middle-aged British physician and Afghan war veteran in his late 40s, middle height, square honest jaw, thick groomed dark-brown mustache, warm observant hazel eyes, wearing a dark Victorian wool tweed frock coat, waistcoat, cravat, holding a polished wood cane, digital art, pastel marker illustration.",
+      "states": {
+        "john_watson_basic": {
+          "file": "project/The Return of Sherlock Holmes/bible/refs/john_watson_basic.png",
+          "description": "Baseline portrait in Victorian physician tweed coat and waistcoat, warm intelligent expression."
+        },
+        "john_watson_front": {
+          "file": "project/The Return of Sherlock Holmes/bible/refs/john_watson_front.png",
+          "description": "Model sheet perspective: front"
+        },
+        "john_watson_threequarter": {
+          "file": "project/The Return of Sherlock Holmes/bible/refs/john_watson_threequarter.png",
+          "description": "Model sheet perspective: threequarter"
+        },
+        "john_watson_profile": {
+          "file": "project/The Return of Sherlock Holmes/bible/refs/john_watson_profile.png",
+          "description": "Model sheet perspective: profile"
+        },
+        "john_watson_costume_props": {
+          "file": "project/The Return of Sherlock Holmes/bible/refs/john_watson_costume_props.png",
+          "description": "Model sheet perspective: costume_props"
+        }
+      }
+    },
+    "mrs_hudson": {
+      "display_name": "Mrs. Hudson",
+      "aliases": [
+        "the landlady",
+        "Mrs Hudson"
+      ],
+      "base_description": "Kindly Scottish housekeeper and landlady of 221B Baker Street in her late 50s, silver-streaked hair pinned in a neat Victorian bun, crinkled gentle eyes, dark Victorian house dress with a white lace collar and crisp white linen apron, digital art, pastel marker illustration.",
+      "states": {
+        "mrs_hudson_basic": {
+          "file": "project/The Return of Sherlock Holmes/bible/refs/mrs_hudson_basic.png",
+          "description": "Baseline landlady portrait with white lace collar and linen apron, warm maternal expression."
+        },
+        "mrs_hudson_front": {
+          "file": "project/The Return of Sherlock Holmes/bible/refs/mrs_hudson_front.png",
+          "description": "Model sheet perspective: front"
+        },
+        "mrs_hudson_threequarter": {
+          "file": "project/The Return of Sherlock Holmes/bible/refs/mrs_hudson_threequarter.png",
+          "description": "Model sheet perspective: threequarter"
+        }
+      }
+    },
+    "inspector_lestrade": {
+      "display_name": "Inspector G. Lestrade",
+      "aliases": [
+        "Lestrade",
+        "Inspector Lestrade",
+        "the Scotland Yarder"
+      ],
+      "base_description": "Lean, wiry, ferret-like Scotland Yard detective in his early 40s, sharp beady dark eyes, clean-shaven cheeks with short sideburns, quick alert posture, wearing a dark Victorian bowler hat, heavy rumpled black detective overcoat, carrying a small leather notebook, digital art, pastel marker illustration.",
+      "states": {
+        "inspector_lestrade_basic": {
+          "file": "project/The Return of Sherlock Holmes/bible/refs/inspector_lestrade_basic.png",
+          "description": "Baseline Scotland Yard detective portrait, bowler hat and dark overcoat, shrewd inquisitive expression."
+        },
+        "inspector_lestrade_front": {
+          "file": "project/The Return of Sherlock Holmes/bible/refs/inspector_lestrade_front.png",
+          "description": "Model sheet perspective: front"
+        },
+        "inspector_lestrade_threequarter": {
+          "file": "project/The Return of Sherlock Holmes/bible/refs/inspector_lestrade_threequarter.png",
+          "description": "Model sheet perspective: threequarter"
+        },
+        "inspector_lestrade_profile": {
+          "file": "project/The Return of Sherlock Holmes/bible/refs/inspector_lestrade_profile.png",
+          "description": "Model sheet perspective: profile"
+        }
+      }
+    },
+    "colonel_sebastian_moran": {
+      "display_name": "Colonel Sebastian Moran",
+      "aliases": [
+        "Colonel Moran",
+        "Moran",
+        "the old shikari",
+        "the second most dangerous man in London"
+      ],
+      "base_description": "Fierce, sinister retired British Army officer and big-game hunter in his late 50s, deeply bronzed weather-beaten face, ferocious predatory pale grey eyes, high bald forehead with thin grizzled grey hair, huge bristling grey cavalry mustache, gaunt powerful broad-shouldered build, heavy Victorian dark wool overcoat, digital art, pastel marker illustration.",
+      "states": {
+        "colonel_sebastian_moran_basic": {
+          "file": "project/The Return of Sherlock Holmes/bible/refs/colonel_sebastian_moran_basic.png",
+          "description": "Baseline sinister military officer portrait, heavy mustache, predatory eyes, dark heavy coat."
+        },
+        "colonel_sebastian_moran_front": {
+          "file": "project/The Return of Sherlock Holmes/bible/refs/colonel_sebastian_moran_front.png",
+          "description": "Model sheet perspective: front"
+        },
+        "colonel_sebastian_moran_threequarter": {
+          "file": "project/The Return of Sherlock Holmes/bible/refs/colonel_sebastian_moran_threequarter.png",
+          "description": "Model sheet perspective: threequarter"
+        },
+        "colonel_sebastian_moran_profile": {
+          "file": "project/The Return of Sherlock Holmes/bible/refs/colonel_sebastian_moran_profile.png",
+          "description": "Model sheet perspective: profile"
+        },
+        "colonel_sebastian_moran_costume_props": {
+          "file": "project/The Return of Sherlock Holmes/bible/refs/colonel_sebastian_moran_costume_props.png",
+          "description": "Model sheet perspective: costume_props"
+        }
+      }
+    },
+    "mycroft_holmes": {
+      "display_name": "Mycroft Holmes",
+      "aliases": [
+        "Mycroft",
+        "brother Mycroft",
+        "the Diogenes Club member"
+      ],
+      "base_description": "Massive, heavyset Victorian gentleman in his early 40s, elder brother of Sherlock Holmes, remarkably broad head, heavy fleshy face with pale skin and profound grey eyes of immense intellect, perfectly tailored dark Victorian frock coat, languid seated posture, digital art, pastel marker illustration.",
+      "states": {
+        "mycroft_holmes_basic": {
+          "file": "project/The Return of Sherlock Holmes/bible/refs/mycroft_holmes_basic.png",
+          "description": "Baseline portrait seated in gentleman's armchair, massive build, languid expression of extraordinary intellect."
+        }
+      }
+    },
+    "professor_moriarty": {
+      "display_name": "Professor James Moriarty",
+      "aliases": [
+        "Moriarty",
+        "the Napoleon of Crime",
+        "Professor Moriarty"
+      ],
+      "base_description": "Tall, gaunt, pallid criminal mastermind, deeply domed forehead, clean-shaven, sunken piercing dark eyes, grey hair, shoulders rounded from lifelong study, face oscillating slowly like a serpent, wearing dark academic Victorian attire, digital art, pastel marker illustration.",
+      "states": {
+        "professor_moriarty_basic": {
+          "file": "project/The Return of Sherlock Holmes/bible/refs/professor_moriarty_basic.png",
+          "description": "Baseline criminal mastermind portrait, domed head, sunken eyes, austere dark academic dress."
+        }
+      }
+    },
+    "stanley_hopkins": {
+      "display_name": "Inspector Stanley Hopkins",
+      "aliases": [
+        "Stanley Hopkins",
+        "young Hopkins"
+      ],
+      "base_description": "Alert, eager young Scotland Yard detective in his late 20s, clean-shaven, earnest intelligent countenance, dark parted hair, wearing a neat Victorian wool overcoat, dark necktie, carrying a leather pocketbook, digital art, pastel marker illustration.",
+      "states": {
+        "stanley_hopkins_basic": {
+          "file": "project/The Return of Sherlock Holmes/bible/refs/stanley_hopkins_basic.png",
+          "description": "Baseline portrait of eager young Scotland Yard detective in neat Victorian attire."
+        }
+      }
+    },
+    "ronald_adair": {
+      "display_name": "The Honourable Ronald Adair",
+      "aliases": [
+        "Ronald Adair",
+        "Adair",
+        "the youth",
+        "the young aristocrat"
+      ],
+      "base_description": "Handsome clean-shaven aristocratic Victorian youth in his mid-20s, refined noble features, neatly parted dark brown hair, calm and unemotional grey eyes, wearing an impeccably tailored black Victorian evening tailcoat, starched white shirt with wing collar and black silk cravat, digital art, pastel marker illustration.",
+      "states": {
+        "ronald_adair_basic": {
+          "file": "project/The Return of Sherlock Holmes/bible/refs/ronald_adair_basic.png",
+          "description": "Baseline aristocratic portrait in tailored Victorian evening coat and wing collar, unemotional refined expression."
+        }
+      }
+    },
+    "the_honourable_ronald_adair": {
+      "display_name": "The Honourable Ronald Adair",
+      "base_description": "Handsome clean-shaven aristocratic Victorian youth in his mid-20s, refined noble features, neatly parted dark brown hair, calm and unemotional grey eyes",
+      "states": {
+        "the_honourable_ronald_adair_front": {
+          "file": "project/The Return of Sherlock Holmes/bible/refs/the_honourable_ronald_adair_front.png",
+          "description": "Model sheet perspective: front"
+        },
+        "the_honourable_ronald_adair_threequarter": {
+          "file": "project/The Return of Sherlock Holmes/bible/refs/the_honourable_ronald_adair_threequarter.png",
+          "description": "Model sheet perspective: threequarter"
+        },
+        "the_honourable_ronald_adair_profile": {
+          "file": "project/The Return of Sherlock Holmes/bible/refs/the_honourable_ronald_adair_profile.png",
+          "description": "Model sheet perspective: profile"
+        },
+        "the_honourable_ronald_adair_costume_props": {
+          "file": "project/The Return of Sherlock Holmes/bible/refs/the_honourable_ronald_adair_costume_props.png",
+          "description": "Model sheet perspective: costume_props"
+        }
+      }
+    }
+  },
+  "locations": {
+    "baker_street_221b_study": {
+      "display_name": "221B Baker Street Sitting Room",
+      "aliases": [
+        "221B",
+        "the study",
+        "our old quarters",
+        "the sitting-room"
+      ],
+      "base_description": "Cozy, cluttered Victorian sitting room at 221B Baker Street, twin large sash windows overlooking Baker Street, open coal fireplace with ornate mantelpiece holding a Persian slipper and jackknife-pinned letters, two comfortable armchairs, violin case in corner, acid-stained deal side table with chemical retorts, warm yellow gaslight reflections, book-lined shelves, digital art, pastel marker illustration.",
+      "states": {
+        "baker_street_221b_study_basic": {
+          "file": "project/The Return of Sherlock Holmes/bible/refs/baker_street_221b_study_basic.png",
+          "description": "Interior baseline wide view of Baker Street study with fireplace, armchairs, and warm gaslight."
+        }
+      }
+    },
+    "baker_street_exterior": {
+      "display_name": "221B Baker Street Exterior & Front Steps",
+      "aliases": [
+        "Baker Street",
+        "the front door of 221B"
+      ],
+      "base_description": "Victorian London brick townhouse facade in foggy twilight, black painted front door marked '221B' with polished brass knocker, wrought iron railings, stone entrance steps, glowing yellow street gas lamp reflecting on damp cobblestones, digital art, pastel marker illustration.",
+      "states": {
+        "baker_street_exterior_basic": {
+          "file": "project/The Return of Sherlock Holmes/bible/refs/baker_street_exterior_basic.png",
+          "description": "Exterior street facade of 221B Baker Street under foggy Victorian gaslight."
+        }
+      }
+    },
+    "camden_house_empty_room": {
+      "display_name": "Camden House (The Empty House)",
+      "aliases": [
+        "the empty house",
+        "Camden House",
+        "opposite house"
+      ],
+      "base_description": "Dark, deserted first-floor front room of an unfurnished Victorian townhouse directly facing 221B Baker Street, bare dusty floorboards, peeling wallpaper, uncurtained dirty window overlooking the street, cold blue moonlight streaming through the glass illuminating a dark waiting silhouette, digital art, pastel marker illustration.",
+      "states": {
+        "camden_house_empty_room_basic": {
+          "file": "project/The Return of Sherlock Holmes/bible/refs/camden_house_empty_room_basic.png",
+          "description": "Dark atmospheric interior of empty house room with window overlooking 221B across the street."
+        },
+        "camden_house_empty_room_interior": {
+          "file": "project/The Return of Sherlock Holmes/bible/refs/camden_house_empty_room_interior.png",
+          "description": "Location view: interior"
+        },
+        "camden_house_empty_room_view_to_221b": {
+          "file": "project/The Return of Sherlock Holmes/bible/refs/camden_house_empty_room_view_to_221b.png",
+          "description": "Location view: view_to_221b"
+        }
+      }
+    },
+    "scotland_yard_office": {
+      "display_name": "Scotland Yard Detective Office",
+      "aliases": [
+        "Scotland Yard",
+        "the Yard"
+      ],
+      "base_description": "Victorian police office at Scotland Yard, heavy dark oak roll-top desk covered in case dockets and telegraph slips, green leather armchairs, large London district map on wood-paneled wall, tall arched window overlooking foggy Westminster, warm brass gas lamps, digital art, pastel marker illustration.",
+      "states": {
+        "scotland_yard_office_basic": {
+          "file": "project/The Return of Sherlock Holmes/bible/refs/scotland_yard_office_basic.png",
+          "description": "Interior detective office with roll-top desk, London maps, and brass lamps."
+        }
+      }
+    },
+    "diogenes_club_strangers_room": {
+      "display_name": "The Diogenes Club (Strangers' Room)",
+      "aliases": [
+        "Diogenes Club",
+        "the Strangers' Room"
+      ],
+      "base_description": "Stately, hushed Victorian gentleman's club room in Pall Mall, deep crimson velvet armchairs, tall dark mahogany bookcases, thick patterned Persian carpet, grandfather clock in corner, quiet atmosphere of profound silence, digital art, pastel marker illustration.",
+      "states": {
+        "diogenes_club_strangers_room_basic": {
+          "file": "project/The Return of Sherlock Holmes/bible/refs/diogenes_club_strangers_room_basic.png",
+          "description": "Quiet Victorian club interior with velvet armchairs and mahogany bookshelves."
+        }
+      }
+    },
+    "baker_street_221b_sitting_room": {
+      "display_name": "221B Baker Street Sitting Room",
+      "base_description": "Cluttered Victorian sitting room at 221B Baker Street, twin sash windows overlooking the street, fireplace, armchairs, chemical table, violincase",
+      "states": {
+        "baker_street_221b_sitting_room_wide": {
+          "file": "project/The Return of Sherlock Holmes/bible/refs/baker_street_221b_sitting_room_wide.png",
+          "description": "Location view: wide"
+        },
+        "baker_street_221b_sitting_room_window_angle": {
+          "file": "project/The Return of Sherlock Holmes/bible/refs/baker_street_221b_sitting_room_window_angle.png",
+          "description": "Location view: window_angle"
+        },
+        "baker_street_221b_sitting_room_chemical_corner": {
+          "file": "project/The Return of Sherlock Holmes/bible/refs/baker_street_221b_sitting_room_chemical_corner.png",
+          "description": "Location view: chemical_corner"
+        }
+      }
+    },
+    "park_lane_427": {
+      "display_name": "427 Park Lane",
+      "base_description": "Grand Mayfair Victorian townhouse, low stone garden wall with iron railings, crocus flowerbed beneath second-floor sitting room window",
+      "states": {
+        "park_lane_427_exterior": {
+          "file": "project/The Return of Sherlock Holmes/bible/refs/park_lane_427_exterior.png",
+          "description": "Location view: exterior"
+        },
+        "park_lane_427_sitting_room": {
+          "file": "project/The Return of Sherlock Holmes/bible/refs/park_lane_427_sitting_room.png",
+          "description": "Location view: sitting_room"
+        }
+      }
+    },
+    "bagatelle_card_club": {
+      "display_name": "Bagatelle Card Club",
+      "base_description": "Exclusive London gentleman's card club, green baize whist tables, dark mahogany paneling, leather armchairs, cigar smoke under shaded pendant lamps",
+      "states": {
+        "bagatelle_card_club_whist_room": {
+          "file": "project/The Return of Sherlock Holmes/bible/refs/bagatelle_card_club_whist_room.png",
+          "description": "Location view: whist_room"
+        }
+      }
+    },
+    "reichenbach_fall": {
+      "display_name": "The Reichenbach Fall",
+      "base_description": "Dramatic Swiss Alpine gorge, roaring torrent of water plunging into boiling chasm, sheer wet rock walls, narrow rocky pathway over the abyss",
+      "states": {
+        "reichenbach_fall_abyss_path": {
+          "file": "project/The Return of Sherlock Holmes/bible/refs/reichenbach_fall_abyss_path.png",
+          "description": "Location view: abyss_path"
+        },
+        "reichenbach_fall_hidden_ledge": {
+          "file": "project/The Return of Sherlock Holmes/bible/refs/reichenbach_fall_hidden_ledge.png",
+          "description": "Location view: hidden_ledge"
+        }
+      }
+    }
+  },
+  "objects": {
+    "sherlock_pipe": {
+      "display_name": "Sherlock's Briar & Calabash Pipe",
+      "aliases": [
+        "the pipe",
+        "briar pipe",
+        "calabash pipe"
+      ],
+      "base_description": "Classic curved Victorian briar smoking pipe with dark polished grain, resting beside tobacco flakes on a cluttered desk, digital art, pastel marker illustration.",
+      "states": {
+        "sherlock_pipe_basic": {
+          "file": "project/The Return of Sherlock Holmes/bible/refs/sherlock_pipe_basic.png",
+          "description": "Curved dark polished pipe resting on table beside matches."
+        }
+      }
+    },
+    "moran_airgun": {
+      "display_name": "Von Herder Pneumatic Airgun",
+      "aliases": [
+        "the airgun",
+        "Von Herder airgun",
+        "silent rifle"
+      ],
+      "base_description": "Deadly, silent German pneumatic air-rifle designed by blind mechanic Von Herder, disguised as an ornate Victorian heavy cane or compact carbine with blued steel barrel and precision brass chamber, digital art, pastel marker illustration.",
+      "states": {
+        "moran_airgun_basic": {
+          "file": "project/The Return of Sherlock Holmes/bible/refs/moran_airgun_basic.png",
+          "description": "Custom silent pneumatic rifle with blued steel and brass mechanics."
+        }
+      }
+    },
+    "sherlock_magnifying_glass": {
+      "display_name": "Sherlock's Brass Magnifying Glass",
+      "aliases": [
+        "the magnifying glass",
+        "the lens"
+      ],
+      "base_description": "Polished Victorian circular optical magnifying glass with heavy brass rim and turned ebony wood handle, resting atop handwritten case papers, digital art, pastel marker illustration.",
+      "states": {
+        "sherlock_magnifying_glass_basic": {
+          "file": "project/The Return of Sherlock Holmes/bible/refs/sherlock_magnifying_glass_basic.png",
+          "description": "Brass-rimmed magnifying glass with turned dark wood handle."
+        }
+      }
+    },
+    "canonical_illustrations": {
+      "display_name": "Canonical Book Illustrations & Diagrams",
+      "aliases": [
+        "book illustrations",
+        "cipher diagrams",
+        "maps"
+      ],
+      "base_description": "The 15 canonical original diagrams, cipher notes, and maps from the first edition of The Return of Sherlock Holmes.",
+      "states": {
+        "illustration_01_dancing_men_note_1_basic": {
+          "file": "project/The Return of Sherlock Holmes/bible/refs/illustration_01_dancing_men_note_1_basic.png",
+          "description": "Notebook page with 15 dancing men cipher stick figures."
+        },
+        "illustration_02_dancing_men_note_2_basic": {
+          "file": "project/The Return of Sherlock Holmes/bible/refs/illustration_02_dancing_men_note_2_basic.png",
+          "description": "Second dancing men cipher line with 9 figures."
+        },
+        "illustration_03_dancing_men_note_3_basic": {
+          "file": "project/The Return of Sherlock Holmes/bible/refs/illustration_03_dancing_men_note_3_basic.png",
+          "description": "Third dancing men cipher with black flag indicator."
+        },
+        "illustration_04_dancing_men_note_4_basic": {
+          "file": "project/The Return of Sherlock Holmes/bible/refs/illustration_04_dancing_men_note_4_basic.png",
+          "description": "Fourth dancing men inscription of 5 figures."
+        },
+        "illustration_05_dancing_men_note_5_basic": {
+          "file": "project/The Return of Sherlock Holmes/bible/refs/illustration_05_dancing_men_note_5_basic.png",
+          "description": "Fifth dancing men inscription of two full rows of 12 figures each."
+        },
+        "illustration_11_dancing_men_note_6_basic": {
+          "file": "project/The Return of Sherlock Holmes/bible/refs/illustration_11_dancing_men_note_6_basic.png",
+          "description": "Sixth dancing men cipher with upside-down figure."
+        },
+        "illustration_12_map_moor_priory_school_basic": {
+          "file": "project/The Return of Sherlock Holmes/bible/refs/illustration_12_map_moor_priory_school_basic.png",
+          "description": "Map of Lower Gill Moor, Holdernesse Hall, and the Priory School."
+        },
+        "illustration_13_sketch_plan_study_house_basic": {
+          "file": "project/The Return of Sherlock Holmes/bible/refs/illustration_13_sketch_plan_study_house_basic.png",
+          "description": "Floor plan diagram of Professor Coram's study and Smith's murder location."
+        },
+        "illustration_14_blotting_paper_strip_basic": {
+          "file": "project/The Return of Sherlock Holmes/bible/refs/illustration_14_blotting_paper_strip_basic.png",
+          "description": "Inky blotting paper strip with fragment handwriting."
+        },
+        "illustration_15_blotting_paper_reverse_basic": {
+          "file": "project/The Return of Sherlock Holmes/bible/refs/illustration_15_blotting_paper_reverse_basic.png",
+          "description": "Mirror-reflected blotting paper showing 'Stand by us for God's sake'."
+        }
+      }
+    }
+  }
+}

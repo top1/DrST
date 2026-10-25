@@ -1,0 +1,50 @@
+# target project directory containing the book and generated assets
+project_dir = "project/The Return of Sherlock Holmes"
+
+# ComfyUI API endpoint
+comfy_url = "http://127.0.0.1:8188"
+
+# Fish Drama3 Audio Generation Parameters
+audio_model_name = "drama3_w4a8experts_bf16.safetensors"
+audio_codec_name = "drama3_codec.safetensors"
+narrator_voice_path = "project/The Return of Sherlock Holmes/bible/refs/watson_narrator_english.safetensors"
+audio_temperature = 0.88
+audio_top_p = 0.85
+audio_top_k = 0
+audio_max_frames = 600
+audio_split_long_text = true
+
+# which seed of fish drama3 tts makes the TYPE of voice
+speaker_seed = 42
+# speaker dynamic determins how many instructions for the speaker should be added
+# 0 = none, 1 = as little as possible, 2 = normal, 3 = wherever it is possible
+speaker_dynamic = 2
+# general speaker instructions
+speaker_instructions = "deep voice, professional book reader"
+
+# what is the maximum amount of time the same picture can stay,
+# if there is only one scene in the same time he is creating a new image from a different angle
+# or where a short amount of time is passed in the scene
+picture_change_time = 10
+
+# alternatives scenes
+number_of_scene_alternatives = 0
+
+# values ranging from 1 - 10 worst to best
+quality_audio = 7
+# values ranging from 1 - 10 worst to best
+quality_image = 7
+# how often can you retry to create an image
+retry_limit = 2
+
+# minimal value in digits until next fullstop
+min_length = 1500
+# value how long is extended if no full scene is found
+extend = 500
+
+# how many times you can extend with the extend length
+max_extend = 2
+
+# examples= Marker illustration, stencil, watercolor, risograph, oil painting. "in the style of" also use color and palette (pastel, vibrant) can help
+# art styles= digital art, 3d, cartoon, realistic, anime
+image_style_prompt = "digital art, pastel marker illustration"

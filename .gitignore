@@ -1,0 +1,98 @@
+# ==========================================
+# DrST Pipeline .gitignore
+# ==========================================
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Operating System & IDE
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Large AI Model Weights & Checkpoints (Safetensors, GGUF, PyTorch)
+*.safetensors
+*.ckpt
+*.pt
+*.bin
+*.onnx
+*.gguf
+
+# Generated Video Files
+*.mp4
+*.mkv
+*.mov
+*.avi
+*.webm
+
+# Generated Audio Files
+*.wav
+*.mp3
+*.flac
+*.aac
+*.ogg
+*.m4a
+
+# Execution Logs & Concat Lists
+*.log
+execution.log
+concat_scenes.txt
+
+# Generated Scene Assets & Render Dumps
+# (Keep directory structure via .gitkeep, ignore scene generation folders)
+project/**/scenes/scene_*/
+project/**/scenes/chapter_*/
+!project/**/scenes/.gitkeep
+
+# Generated Visual References & Ingestion Renders
+project/**/bible/refs/*.png
+project/**/bible/refs/*.jpg
+project/**/bible/refs/*.jpeg
+project/**/bible/refs/*.webp
+!project/**/bible/refs/.gitkeep
+
+project/**/illustrations/*.png
+project/**/illustrations/*.jpg
+project/**/illustrations/*.svg
+!project/**/illustrations/.gitkeep
+
+# Temporary HTML & Screen Capture Scratchpads
+*.temp.html
+temp_*
+*.tmp
